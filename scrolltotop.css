@@ -1,0 +1,42 @@
+/* button for scroll to top */
+/* =============================================================================== */
+
+#ScrollToTopBtn
+/* #myBtn */ {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 60px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 1; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #05A7EB; /* Set a background color */
+    color: #FFFFFF; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 1em; /* Increase font size */
+    border: 3px solid #000000; /* modification to define button on dark background */
+    font-weight: 700;
+}
+
+#ScrollToTopBtn:hover
+/* #myBtn:hover */ {
+    background-color: #B4B4B4; /* Background on hover */
+    color: #000000; /* Text color */
+    font-weight: 700;
+    border: 3px solid #000000;
+}
+
+html
+{
+  scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
+
